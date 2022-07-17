@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="GridContainer" type="GridContainer"]
+margin_top = 70.0
+margin_right = 958.0
+margin_bottom = 70.0

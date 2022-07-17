@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://LineInput.gd" type="Script" id=1]
+[ext_resource path="res://Fonts/MODES___.TTF" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+use_filter = true
+extra_spacing_top = 5
+extra_spacing_char = 2
+font_data = ExtResource( 2 )
+
+[node name="LineInput" type="Label"]
+margin_top = 35.0
+margin_right = 958.0
+margin_bottom = 60.0
+custom_colors/font_color = Color( 0.498039, 0.92549, 0.290196, 1 )
+custom_fonts/font = SubResource( 1 )
+text = ">"
+autowrap = true
+uppercase = true
+script = ExtResource( 1 )
